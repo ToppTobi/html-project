@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../stylesheet.css">
+    <title>Textauszeichnung</title>
+</head>
+
+
+<body class="bodyvonkontakt">
+
+    <header>
+        <nav class="navbar">
+            <h1><a href="#">FEEDBACK.</a></h1>
+      
+            <ul class="nav-menu">
+              <li class="nav-item">
+                <a href="../Komponenten/Gehaeuse.html">Gehäuse</a>
+              </li>
+              <li class="nav-item">
+                <a href="../Komponenten/Mainboard.html">Mainboard</a>
+              </li>
+              <li class="nav-item">
+                <a href="../Komponenten/Grafikkarte.html">Grafikkarte</a>
+              </li>
+              <li class="nav-item">
+                <a href="../Komponenten/Luefter.html">Lüfter</a>
+              </li>
+              <li class="nav-item">
+                <a href="../Komponenten/Prozessor.html">Prozessor</a>
+              </li>
+              <li class="nav-item">
+                <a href="../Komponenten/Ram.html">Ram</a>
+              </li>
+              <li class="nav-item">
+                <a href="../Komponenten/SSD.HDD.html">Speicher</a>
+              </li>
+              <li class="nav-item">
+                <a href="../Komponenten/Netzteil.html">Netzteil</a>
+              </li>
+              <li class="nav-item">
+                <a href="../Komponenten/Kabel.html">Käbel</a>
+              </li>
+            </ul>
+    </header>
+    <br><br><br>
+        <header class="formular-menu">
+            <form action="https://formspree.io/f/moqoawwd" method="POST">
+                <nav>
+                <div class="middle">
+                    <label>Anrede</label><br>
+                    <input class="frau" type="radio" name="anrede" id="frau" value="Frau">
+                    <label for="frau">Frau</label>
+                    <input type="radio" name="anrede" id="herr" value="Herr">
+                    <label for="herr">Herr</label>
+                    <input type="radio" name="anrede" id="anderes" value="Anderes">
+                    <label for="anderes">Anderes</label>
+                </div>
+                <div class="vorname">
+                    <label for="vorname"></label><br>
+                    <input placeholder="Vorname" type="text" name="vorname" id="vorname" maxlength="100">
+                </div>
+                    <div class="nachname">
+                        <label for="nachname"></label><br>
+                        <input placeholder="Nachname" type="text" name="nachname" id="nachname" maxlength="100">
+                    </div>
+
+
+                    <div class="Email">
+                        <label for="email"></label> <br>
+                        <input placeholder="E-Mail Adresse *" type="email" name="email" id="email" required>
+                    </div>
+
+                    <div>
+
+                        <label for="nachricht"></label><br>
+                        <textarea placeholder="Nachricht *" name="nachricht" id="nachricht" cols="30" rows="10"
+                            required></textarea>
+                    </div>
+                    <div class="form">
+                        <div class="sendenButton">
+                            <input type="submit" value="Senden">
+                        </div>
+                        <div class=loeschenButton>
+                            <input type="reset" value="Löschen">
+                        </div>
+                    </div>
+                   
+                </nav>
+            </form>
+
+        </header>
+        <footer>
+            <br><br><br><br>
+            <nav class="navbar-footer">
+              <ul class="nav-menu-footer">
+                <li class="zurueck">
+                    <a href="../index.html"><img src="../Komponenten/Bilder/zurueck.png" alt="Link zum auf die Startseite zu gelangen"></a>
+                </li>
+                <li class="nav-item-footer-ueberMich">
+                  <h3>Über Mich</h3>
+                  <a href="https://github.com/ToppTobi" target="_blank"><img
+                      src="../Komponenten/Bilder/github.png" alt="Link zum github von Tobias"></a>
+                      <a href="https://www.linkedin.com/in/tobias-topp-95b27b281/" target="_blank"><img src="../Komponenten/Bilder/LinkedIn.png" alt="Link zum LinkedIn von Tobias"></a>
+                  <a href="https://www.instagram.com/_kxwiiii_/" target="_blank"><img src="../Komponenten/Bilder/Instagram.png
+                      " alt="Link zum Instagram von Tobias">
+                  </a>
+                </li>
+              </ul>
+            </nav>
+
+        </footer>
+
+</body>
+
+</html>
